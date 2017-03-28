@@ -1,14 +1,28 @@
+body {
+  background: #F4F1EA; }
+
 header {
   height: 600px;
   background-image: url("../images/mountain.jpg");
   background-size: cover;
   overflow: hidden; }
 
-h1 {
+.hero-title {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 64px;
   margin-top: 20%;
   margin-left: 5%; }
+
+section {
+  margin: 10%;
+  border: 1px solid grey; }
+
+.post {
+  margin: 5%; }
+
+.date {
+  font-size: 14px;
+  color: grey; }
 
 /*# sourceMappingURL=style.css.map */
